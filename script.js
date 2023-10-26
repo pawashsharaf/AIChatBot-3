@@ -1,1 +1,128 @@
-const _0x52ab64 = _0x5b94; (function (_0xb01698, _0xac21e2) { const _0x471db8 = _0x5b94, _0x47a162 = _0xb01698(); while (!![]) { try { const _0x40ca56 = parseInt(_0x471db8(0x162)) / (0x1776 + 0x1ac1 + -0x3236) * (-parseInt(_0x471db8(0x188)) / (0xdf6 * -0x1 + -0xb27 * -0x3 + 0x1 * -0x137d)) + parseInt(_0x471db8(0x177)) / (-0x1830 + -0x61 * -0x54 + -0x5d * 0x15) * (-parseInt(_0x471db8(0x186)) / (0x8db * 0x1 + -0x1d2b + 0x1454)) + -parseInt(_0x471db8(0x199)) / (-0x1305 * 0x2 + 0x4ed * -0x5 + -0xfac * -0x4) * (-parseInt(_0x471db8(0x170)) / (0x13b1 + -0x4d5 * 0x4 + -0x1d * 0x3)) + -parseInt(_0x471db8(0x148)) / (-0x2 * -0x241 + -0x261 + -0x10d * 0x2) + -parseInt(_0x471db8(0x195)) / (-0x1ce3 + -0x3 * -0x823 + -0x482 * -0x1) * (-parseInt(_0x471db8(0x15c)) / (-0x23a7 + 0x1e93 + -0xbb * -0x7)) + parseInt(_0x471db8(0x17e)) / (0x1 * 0x21d7 + 0x181f + -0x39ec) * (-parseInt(_0x471db8(0x173)) / (-0x215a + -0x1eef + 0x4054)) + -parseInt(_0x471db8(0x165)) / (-0x664 + 0x123f * -0x2 + 0x2aee) * (parseInt(_0x471db8(0x159)) / (-0x1 * 0x1b7f + 0x1 * 0x1bee + -0x62)); if (_0x40ca56 === _0xac21e2) break; else _0x47a162['push'](_0x47a162['shift']()); } catch (_0x1946e8) { _0x47a162['push'](_0x47a162['shift']()); } } }(_0x3613, 0x3a890 + 0x37f * -0xd7 + 0x1473d * 0x4)); const chatbotToggler = document[_0x52ab64(0x16f)](_0x52ab64(0x151)), closeBtn = document[_0x52ab64(0x16f)](_0x52ab64(0x169)), chatbox = document[_0x52ab64(0x16f)]('.chatbox'), chatInput = document[_0x52ab64(0x16f)](_0x52ab64(0x19a)), sendChatBtn = document[_0x52ab64(0x16f)](_0x52ab64(0x154)); function _0x3613() { const _0xba607f = ['Bearer\x20', 'querySelector', '236922aZiFAI', 'content', 'incoming', '1638857BzXXPV', 'POST', 'who\x20developed\x20u', 'trim', '6rRsAsS', 'then', 'height', 'chat', 'who\x20create\x20u', 'Fetching\x20result.....', 'HmTvF', '10qWZjLQ', 'classList', 'includes', 'Content-Type', 'appendChild', 'json', 'mWBhy', 'scrollTo', '49160nWKoyj', 'outgoing', '406qCLszg', 'icuMM', 'Enter', 'TdBwe', 'mPPag', 'stringify', 'style', 'MfWfz', 'pwyhQ', 'keydown', 'body', 'input', 'xxViQ', '8hoCqdE', 'who\x20devlope\x20u', 'plUQF', 'createElement', '70pMLzWF', '.chat-input\x20textarea', 'ObytJ', 'Authorization', 'show-chatbot', 'who\x20developed\x20you', 'yhYZD', '1441650Bgcghf', 'https://api.openai.com/v1/chat/completions', 'FErFX', 'finally', 'user', 'error', '<p></p>', 'who\x20create\x20you', 'addEventListener', '.chatbot-toggler', 'Yprwh', 'preventDefault', '.chat-input\x20span', 'model', 'toLowerCase', 'ggoQu', 'key', '135226DZBSRa', 'I\x20was\x20developed\x20by\x20pawash\x20&\x20Designed\x20by\x20OpenAI', 'value', '6676497xZMhOy', 'jWyYo', 'scrollHeight', 'zJDgf', '<span\x20class=\x22material-symbols-outlined\x22>settings_accessibility</span><p></p>', 'jCdVm', '677lJyjtH', 'click', 'Oops!\x20Something\x20went\x20wrong.\x20Please\x20try\x20again.', '456GWwtSl', 'toggle', 'choices', 'add', '.close-btn', 'EZzJo', 'textContent', 'application/json', 'innerHTML']; _0x3613 = function () { return _0xba607f; }; return _0x3613(); } let userMessage = null; const API_KEY = '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', inputInitHeight = chatInput[_0x52ab64(0x15e)], createChatLi = (_0x41a359, _0x37f21f) => { const _0x233b19 = _0x52ab64, _0x1309fd = {}; _0x1309fd[_0x233b19(0x152)] = _0x233b19(0x17a), _0x1309fd[_0x233b19(0x189)] = function (_0x5469c6, _0x3c8c32) { return _0x5469c6 === _0x3c8c32; }, _0x1309fd['yhYZD'] = _0x233b19(0x187); const _0x160766 = _0x1309fd, _0x21c25d = document[_0x233b19(0x198)]('li'); _0x21c25d[_0x233b19(0x17f)]['add'](_0x160766[_0x233b19(0x152)], '' + _0x37f21f); let _0x4427c3 = _0x160766[_0x233b19(0x189)](_0x37f21f, _0x160766[_0x233b19(0x19f)]) ? _0x233b19(0x14e) : _0x233b19(0x160); return _0x21c25d[_0x233b19(0x16d)] = _0x4427c3, _0x21c25d[_0x233b19(0x16f)]('p')[_0x233b19(0x16b)] = _0x41a359, _0x21c25d; }, generateResponse = _0x5599e4 => { const _0x36c68a = _0x52ab64, _0x46d50a = { 'ObytJ': _0x36c68a(0x14d), 'MfWfz': _0x36c68a(0x164), 'plUQF': _0x36c68a(0x16c), 'FErFX': 'gpt-3.5-turbo', 'ggoQu': _0x36c68a(0x14c), 'TdBwe': 'who\x20created\x20you', 'mPPag': _0x36c68a(0x15a), 'zJDgf': _0x36c68a(0x14f), 'jWyYo': _0x36c68a(0x17b), 'jCdVm': _0x36c68a(0x19e), 'pwyhQ': _0x36c68a(0x175), 'xxViQ': function (_0xd200f0, _0x8bd69c, _0x3c24d4) { return _0xd200f0(_0x8bd69c, _0x3c24d4); } }, _0x200205 = _0x36c68a(0x149), _0xf9d095 = _0x5599e4[_0x36c68a(0x16f)]('p'), _0x48e3f2 = {}; _0x48e3f2[_0x36c68a(0x181)] = _0x46d50a[_0x36c68a(0x197)], _0x48e3f2[_0x36c68a(0x19c)] = _0x36c68a(0x16e) + API_KEY; const _0x184f57 = {}; _0x184f57[_0x36c68a(0x155)] = _0x46d50a[_0x36c68a(0x14a)], _0x184f57['messages'] = [{ 'role': _0x46d50a[_0x36c68a(0x157)], 'content': userMessage }]; const _0x14e0cc = { 'method': _0x36c68a(0x174), 'headers': _0x48e3f2, 'body': JSON[_0x36c68a(0x18d)](_0x184f57) }; if (userMessage[_0x36c68a(0x156)]()[_0x36c68a(0x180)](_0x46d50a[_0x36c68a(0x18b)])) { _0xf9d095[_0x36c68a(0x16b)] = _0x46d50a[_0x36c68a(0x18c)], chatbox[_0x36c68a(0x185)](0x4 * -0x84e + 0x1077 + 0x1 * 0x10c1, chatbox[_0x36c68a(0x15e)]); return; } if (userMessage[_0x36c68a(0x156)]()[_0x36c68a(0x180)]('who\x20created\x20u')) { _0xf9d095[_0x36c68a(0x16b)] = _0x46d50a[_0x36c68a(0x18c)], chatbox[_0x36c68a(0x185)](0x26 * -0xa5 + 0x2b * -0x6b + 0x2a77, chatbox['scrollHeight']); return; } if (userMessage[_0x36c68a(0x156)]()[_0x36c68a(0x180)](_0x46d50a[_0x36c68a(0x15f)])) { _0xf9d095[_0x36c68a(0x16b)] = _0x36c68a(0x15a), chatbox[_0x36c68a(0x185)](0x687 + 0x37f * 0x7 + -0x3e * 0x80, chatbox['scrollHeight']); return; } if (userMessage['toLowerCase']()[_0x36c68a(0x180)](_0x46d50a[_0x36c68a(0x15d)])) { _0xf9d095[_0x36c68a(0x16b)] = _0x36c68a(0x15a), chatbox[_0x36c68a(0x185)](0xb7c + 0x652 + 0x2 * -0x8e7, chatbox[_0x36c68a(0x15e)]); return; } if (userMessage[_0x36c68a(0x156)]()[_0x36c68a(0x180)](_0x46d50a[_0x36c68a(0x161)])) { _0xf9d095['textContent'] = 'I\x20was\x20developed\x20by\x20pawash\x20&\x20Designed\x20by\x20OpenAI', chatbox[_0x36c68a(0x185)](0x1 * -0x1e56 + -0x296 + -0x25a * -0xe, chatbox['scrollHeight']); return; } if (userMessage[_0x36c68a(0x156)]()[_0x36c68a(0x180)](_0x46d50a[_0x36c68a(0x190)])) { _0xf9d095[_0x36c68a(0x16b)] = _0x36c68a(0x15a), chatbox['scrollTo'](-0x3 * -0x4d7 + 0x124a + -0x20cf, chatbox[_0x36c68a(0x15e)]); return; } if (userMessage['toLowerCase']()[_0x36c68a(0x180)](_0x36c68a(0x196))) { _0xf9d095['textContent'] = _0x46d50a[_0x36c68a(0x18c)], chatbox[_0x36c68a(0x185)](-0x1647 * 0x1 + -0x2471 + 0x1 * 0x3ab8, chatbox[_0x36c68a(0x15e)]); return; } _0x46d50a[_0x36c68a(0x194)](fetch, _0x200205, _0x14e0cc)[_0x36c68a(0x178)](_0x52a9b4 => _0x52a9b4[_0x36c68a(0x183)]())['then'](_0x3dab0d => { const _0x3602cf = _0x36c68a; _0xf9d095[_0x3602cf(0x16b)] = _0x3dab0d[_0x3602cf(0x167)][-0xeea * 0x2 + -0x825 + 0x25f9]['message'][_0x3602cf(0x171)][_0x3602cf(0x176)](); })['catch'](() => { const _0x5904e1 = _0x36c68a; _0xf9d095[_0x5904e1(0x17f)][_0x5904e1(0x168)](_0x46d50a[_0x5904e1(0x19b)]), _0xf9d095[_0x5904e1(0x16b)] = _0x46d50a[_0x5904e1(0x18f)]; })[_0x36c68a(0x14b)](() => chatbox[_0x36c68a(0x185)](0x1a57 + 0x5 * 0x7cd + -0x4158, chatbox[_0x36c68a(0x15e)])); }, handleChat = () => { const _0x1e5bb1 = _0x52ab64, _0xfd792a = { 'EZzJo': function (_0x6571e9, _0x391bb2, _0x21bb62) { return _0x6571e9(_0x391bb2, _0x21bb62); }, 'mWBhy': _0x1e5bb1(0x17c) }; userMessage = chatInput[_0x1e5bb1(0x15b)][_0x1e5bb1(0x176)](); if (!userMessage) return; chatInput[_0x1e5bb1(0x15b)] = '', chatInput[_0x1e5bb1(0x18e)][_0x1e5bb1(0x179)] = inputInitHeight + 'px', chatbox[_0x1e5bb1(0x182)](_0xfd792a[_0x1e5bb1(0x16a)](createChatLi, userMessage, _0x1e5bb1(0x187))), chatbox[_0x1e5bb1(0x185)](0x1acb + -0xda0 + -0xd2b, chatbox['scrollHeight']), _0xfd792a[_0x1e5bb1(0x16a)](setTimeout, () => { const _0x529978 = _0x1e5bb1, _0x526933 = _0xfd792a[_0x529978(0x16a)](createChatLi, _0xfd792a[_0x529978(0x184)], _0x529978(0x172)); chatbox[_0x529978(0x182)](_0x526933), chatbox[_0x529978(0x185)](-0x1526 + 0x2456 + -0xf30, chatbox[_0x529978(0x15e)]), generateResponse(_0x526933); }, -0x2414 + -0xfba + -0xef * -0x3a); }; function _0x5b94(_0x115f88, _0x56ca51) { const _0x2ccf25 = _0x3613(); return _0x5b94 = function (_0xd8e767, _0x3cf303) { _0xd8e767 = _0xd8e767 - (0xbc4 * 0x2 + -0x16ff + 0x1 * 0xbf); let _0x45cff2 = _0x2ccf25[_0xd8e767]; return _0x45cff2; }, _0x5b94(_0x115f88, _0x56ca51); } chatInput[_0x52ab64(0x150)](_0x52ab64(0x193), () => { const _0x2941d8 = _0x52ab64; chatInput[_0x2941d8(0x18e)][_0x2941d8(0x179)] = inputInitHeight + 'px', chatInput[_0x2941d8(0x18e)][_0x2941d8(0x179)] = chatInput[_0x2941d8(0x15e)] + 'px'; }), chatInput[_0x52ab64(0x150)](_0x52ab64(0x191), _0x5c97a5 => { const _0x43fd68 = _0x52ab64, _0xbb1b70 = { 'MswHk': function (_0x583333, _0x25ca5e) { return _0x583333 === _0x25ca5e; }, 'AJGMj': function (_0x50a48d, _0x42382a) { return _0x50a48d > _0x42382a; }, 'HmTvF': function (_0x10ea61) { return _0x10ea61(); } }; _0xbb1b70['MswHk'](_0x5c97a5[_0x43fd68(0x158)], _0x43fd68(0x18a)) && !_0x5c97a5['shiftKey'] && _0xbb1b70['AJGMj'](window['innerWidth'], 0x1 * 0xbc3 + -0xc6a + -0x1 * -0x3c7) && (_0x5c97a5[_0x43fd68(0x153)](), _0xbb1b70[_0x43fd68(0x17d)](handleChat)); }), sendChatBtn['addEventListener'](_0x52ab64(0x163), handleChat), closeBtn['addEventListener']('click', () => document['body'][_0x52ab64(0x17f)]['remove']('show-chatbot')), chatbotToggler['addEventListener'](_0x52ab64(0x163), () => document[_0x52ab64(0x192)][_0x52ab64(0x17f)][_0x52ab64(0x166)](_0x52ab64(0x19d)));
+const chatbotToggler = document.querySelector(".chatbot-toggler");
+const closeBtn = document.querySelector(".close-btn");
+const chatbox = document.querySelector(".chatbox");
+const chatInput = document.querySelector(".chat-input textarea");
+const sendChatBtn = document.querySelector(".chat-input span");
+
+let userMessage = null; // Variable to store user's message
+const API_KEY = "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"; // Paste your API key here
+const inputInitHeight = chatInput.scrollHeight;
+
+const createChatLi = (message, className) => {
+  // Create a chat <li> element with the passed message and className
+  const chatLi = document.createElement("li");
+  chatLi.classList.add("chat", `${className}`);
+  let chatContent = className === "outgoing" ? `<p></p>` : `<span class="material-symbols-outlined">settings_accessibility</span><p></p>`;
+  chatLi.innerHTML = chatContent;
+  chatLi.querySelector("p").textContent = message;
+  return chatLi; // return chat <li> element
+};
+
+const generateResponse = (chatElement) => {
+  const API_URL = "https://api.openai.com/v1/chat/completions";
+  const messageElement = chatElement.querySelector("p");
+
+  // Define the properties and message for the API request
+  const requestOptions = {
+    method: "POST",
+    headers: {
+      "Content-Type": "application/json",
+      Authorization: `Bearer ${API_KEY}`,
+    },
+    body: JSON.stringify({
+      model: "gpt-3.5-turbo",
+      messages: [{ role: "user", content: userMessage }],
+    }),
+  };
+
+  // Check for specific queries
+  if (userMessage.toLowerCase().includes("who created you")) {
+    messageElement.textContent = "I was developed by pawash & Designed by OpenAI";
+    chatbox.scrollTo(0, chatbox.scrollHeight);
+    return;
+  }
+  if (userMessage.toLowerCase().includes("who created u")) {
+    messageElement.textContent = "I was developed by pawash & Designed by OpenAI";
+    chatbox.scrollTo(0, chatbox.scrollHeight);
+    return;
+  }
+  if (userMessage.toLowerCase().includes("who create you")) {
+    messageElement.textContent = "I was developed by pawash & Designed by OpenAI";
+    chatbox.scrollTo(0, chatbox.scrollHeight);
+    return;
+  }
+  if (userMessage.toLowerCase().includes("who create u")) {
+    messageElement.textContent = "I was developed by pawash & Designed by OpenAI";
+    chatbox.scrollTo(0, chatbox.scrollHeight);
+    return;
+  }
+  if (userMessage.toLowerCase().includes("who developed you")) {
+    messageElement.textContent = "I was developed by pawash & Designed by OpenAI";
+    chatbox.scrollTo(0, chatbox.scrollHeight);
+    return;
+  }
+  if (userMessage.toLowerCase().includes("who developed u")) {
+    messageElement.textContent = "I was developed by pawash & Designed by OpenAI";
+    chatbox.scrollTo(0, chatbox.scrollHeight);
+    return;
+  }
+  if (userMessage.toLowerCase().includes("who devlope u")) {
+    messageElement.textContent = "I was developed by pawash & Designed by OpenAI";
+    chatbox.scrollTo(0, chatbox.scrollHeight);
+    return;
+  }
+
+
+  // Send POST request to API, get response, and set the response as paragraph text
+  fetch(API_URL, requestOptions)
+    .then((res) => res.json())
+    .then((data) => {
+      messageElement.textContent = data.choices[0].message.content.trim();
+    })
+    .catch(() => {
+      messageElement.classList.add("error");
+      messageElement.textContent = "Oops! Something went wrong. Please try again.";
+    })
+    .finally(() => chatbox.scrollTo(0, chatbox.scrollHeight));
+};
+
+
+const handleChat = () => {
+    userMessage = chatInput.value.trim(); // Get user entered message and remove extra whitespace
+    if(!userMessage) return;
+
+    // Clear the input textarea and set its height to default
+    chatInput.value = "";
+    chatInput.style.height = `${inputInitHeight}px`;
+
+    // Append the user's message to the chatbox
+    chatbox.appendChild(createChatLi(userMessage, "outgoing"));
+    chatbox.scrollTo(0, chatbox.scrollHeight);
+    
+    setTimeout(() => {
+        // Display "Thinking..." message while waiting for the response
+        const incomingChatLi = createChatLi("Fetching result.....", "incoming");
+        chatbox.appendChild(incomingChatLi);
+        chatbox.scrollTo(0, chatbox.scrollHeight);
+        generateResponse(incomingChatLi);
+    }, 600);
+};
+
+chatInput.addEventListener("input", () => {
+    // Adjust the height of the input textarea based on its content
+    chatInput.style.height = `${inputInitHeight}px`;
+    chatInput.style.height = `${chatInput.scrollHeight}px`;
+});
+
+chatInput.addEventListener("keydown", (e) => {
+    // If Enter key is pressed without Shift key and the window 
+    // width is greater than 800px, handle the chat
+    if(e.key === "Enter" && !e.shiftKey && window.innerWidth > 800) {
+        e.preventDefault();
+        handleChat();
+    }
+});
+
+sendChatBtn.addEventListener("click", handleChat);
+closeBtn.addEventListener("click", () => document.body.classList.remove("show-chatbot"));
+chatbotToggler.addEventListener("click", () => document.body.classList.toggle("show-chatbot"));
